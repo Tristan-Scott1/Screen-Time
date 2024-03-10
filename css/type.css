@@ -95,3 +95,7 @@ p {
     font-weight: 400;
     font-style: normal;
 }
+
+.linked:hover {
+    color: #2b9be6;
+}
