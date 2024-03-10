@@ -14,6 +14,10 @@ ul {
 }
 ul li {
     padding: 10px;
+    font-family: oswald;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
 }
 ul li a {
     font-family: oswald;
