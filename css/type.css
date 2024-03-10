@@ -19,7 +19,7 @@ h1 {
     margin: 0.67em 0;
     font-weight: 1200;
     font-style: normal;
-    background: url('/images/pond.jpg') no-repeat center center;
+    background: url('../images/pond.jpg') no-repeat center center;
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
@@ -33,7 +33,7 @@ h1 {
     margin: 0.67em 0;
     font-weight: 1200;
     font-style: normal;
-    background: url('/images/sunset.jpg') no-repeat;
+    background: url('../images/sunset.jpg') no-repeat;
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
@@ -45,7 +45,7 @@ h1 {
     margin: 0.67em 0;
     font-weight: 1200;
     font-style: normal;
-    background: url('/images/mountains.jpg') no-repeat;
+    background: url('../images/mountains.jpg') no-repeat;
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
