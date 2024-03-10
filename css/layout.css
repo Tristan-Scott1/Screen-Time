@@ -120,3 +120,13 @@
     z-index: 1;
 }
 
+.grid-container .grid-container__child:nth-child(18) {
+    grid-column: 1 / span 3;
+    align-self: start;
+    justify-self: center;
+    z-index: 1;
+}
+
+/* reference page grid */
+
+
