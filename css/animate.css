@@ -1,0 +1,53 @@
+@import 'glitch.css';
+
+.circle {
+    height: 600px;
+    width: 600px;
+    background-color: #b8d419;
+    /* background-image: url('../images/nature.jpg'); */
+    border-radius: 50%;
+    animation-name: leftToRight;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;    
+    mix-blend-mode: difference;
+    align-self: center;
+}
+
+@keyframes leftToRight {
+    0% {transform: translate(-104%, 0);}
+    25% {transform: translate(-104%,0);}
+    50% {transform: translate(107%, 0);}
+    75% {transform: translate(107%,0);}
+    100% {transform: translate(-104%, 0);}
+}
+
+@keyframes leafstroke {
+    0% {
+        stroke-dashoffset: 000;
+    }
+    45% {
+        stroke-dashoffset: 1000;
+    }
+    55% {
+        stroke-dashoffset: 1000;
+    }
+    100% {
+        stroke-dashoffset: 000;
+    }
+}
+
+@keyframes unlpugged {
+    0% {
+        stroke-dashoffset: 000;
+    }
+    45% {
+        stroke-dashoffset: 1000;
+    }
+    55% {
+        stroke-dashoffset: 1000;
+    }
+    100% {
+        stroke-dashoffset: 000;
+    }
+}

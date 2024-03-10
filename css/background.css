@@ -1,0 +1,42 @@
+/*
+
+Hiding overflow works fine when outside of grid-container? But as soon as I try to put it into the grid container to style the background, the shape will overflow to the right of the screen 
+
+*/
+
+.background-container {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.background {
+    background-color: #472BE6;
+    position: absolute;
+    height: 20vh;
+    width: 1000px;
+    transform: translate(1400px, -100px) rotate(-45deg);
+    mix-blend-mode: difference;
+    overflow: hidden;
+}
+
+.background2 {
+    background-color: #472BE6;
+    position: absolute;
+    height: 5vh;
+    width: 1300px;
+    transform: translate(-500px, 50px) rotate(15deg);
+    mix-blend-mode: difference;
+    overflow: hidden;
+}
+
+.background3 {
+    background-color: #472BE6;
+    position: absolute;
+    height: 3vh;
+    width: 1300px;
+    transform: translate(-555px, 436px);
+    mix-blend-mode: difference;
+    overflow: hidden;
+}

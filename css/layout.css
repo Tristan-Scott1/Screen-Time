@@ -1,0 +1,122 @@
+.center {
+    align-self: center;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 0.75fr auto);
+    overflow: hidden;
+}
+
+/* Subgrid 3x3*/
+.sub-grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+.grid-container__child img {
+    width: 500px;
+    height: auto;
+}
+
+.grid-container__child svg {
+    width: 200px;
+    height: auto;
+    display: block;
+}
+
+.grid-container .grid-container__child:nth-child(1) {
+    grid-column: 2;
+    grid-row: 2;
+    align-self: center;
+    justify-self: center;
+}
+
+.grid-container .grid-container__child:nth-child(2) {
+    transform: scaleX(-1);
+    grid-column: 3;
+    grid-row: 1;
+    align-self: center;
+    justify-self: center;
+}
+
+.grid-container .grid-container__child:nth-child(3) {
+    grid-column: 1;
+    grid-row: 1;
+    align-self: center;
+    justify-self: center;
+}
+
+.grid-container .grid-container__child:nth-child(4) {
+    grid-column: 1;
+    grid-row: 2;
+    align-self: center;
+    justify-self: center;
+}
+
+.grid-container .grid-container__child:nth-child(5) {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.grid-container .grid-container__child:nth-child(6) {
+    grid-column: 3;
+    grid-row: 2;
+    align-self: center;
+    justify-self: center;
+}
+
+.grid-container .grid-container__child:nth-child(7) {
+    grid-column: 2;
+    grid-row: 1;
+}
+.grid-container .grid-container__child:nth-child(8) {
+    grid-column: 1;
+    grid-row: 3;
+    align-self: center;
+    justify-self: center;
+}
+
+.grid-container .grid-container__child:nth-child(9) {
+    grid-column: 2;
+    grid-row: 3;
+    align-self: center;
+    justify-self: center;
+
+}
+
+.grid-container .grid-container__child:nth-child(10) {
+    grid-column: 3;
+    grid-row: 3;
+    align-self: center;
+    justify-self: center;
+}
+.grid-container .grid-container__child:nth-child(14) {
+    grid-column: 1 / span 3;
+    grid-row: 5;
+    align-self: start;
+    justify-self: center;
+}
+
+.grid-container .grid-container__child:nth-child(15) {
+    grid-column: 1 / span 3;
+    grid-row: 6;
+    align-self: start;
+    justify-self: center;
+}
+
+.grid-container .grid-container__child:nth-child(16) {
+    grid-column: 1 / span 3;
+    grid-row: 7;
+    align-self: start;
+    justify-self: center;
+}
+
+.grid-container .grid-container__child:nth-child(17) {
+    grid-column: 1 / span 3;
+    align-self: start;
+    justify-self: center;
+    z-index: 1;
+}
+

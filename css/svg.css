@@ -1,0 +1,52 @@
+.leaf1 {
+    fill-opacity: 0;
+    stroke: green;
+    stroke-width: 2;
+    stroke-dashoffset: 0;
+    stroke-dasharray: 1000;
+    animation: leafstroke 12s ease-in-out infinite;
+
+}
+
+.leaf2 {
+    fill-opacity: 0;
+    stroke: green;
+    stroke-width: 2;
+    stroke-dashoffset: 0;
+    stroke-dasharray: 1000;
+    animation: leafstroke 12s ease-in-out infinite;
+}
+
+.leaf3 {
+    fill-opacity: 0;
+    stroke: green;
+    stroke-width: 2;
+    stroke-dashoffset: 0;
+    stroke-dasharray: 1000;
+    animation: leafstroke 12s ease-in-out infinite;
+}
+
+.unplug {
+    fill-opacity: 0;
+    stroke: green;
+    stroke-width: 20;
+    stroke-dashoffset: 0;
+    stroke-dasharray: 1000;
+    animation: unlpugged 12s ease-in-out infinite;
+
+}
+
+#svg1 {
+    transform: scaleX(-1);
+    rotate: -45deg;
+}
+
+#svg2 {
+    /* transform: scaleY(-1); */
+    rotate: 45deg;
+}
+
+#svg3 {
+    transform: scale(1.5);
+    rotate: 25deg;
+}
