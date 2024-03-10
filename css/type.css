@@ -54,7 +54,7 @@ p {
     margin: 0.67em 0;
     font-weight: 1000;
     font-style: normal;
-    background: url('/images/pond.jpg') no-repeat center center;
+    background: url('ASN3/images/pond.jpg') no-repeat center center;
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
@@ -67,7 +67,7 @@ p {
     margin: 0.67em 0;
     font-weight: 1000;
     font-style: normal;
-    background: url('/images/sunset.jpg') no-repeat;
+    background: url('ASN3/images/sunset.jpg') no-repeat;
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
@@ -79,7 +79,7 @@ p {
     margin: 0.67em 0;
     font-weight: 1000;
     font-style: normal;
-    background: url('/images/mountains.jpg') no-repeat;
+    background: url('ASN3/images/mountains.jpg') no-repeat;
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
