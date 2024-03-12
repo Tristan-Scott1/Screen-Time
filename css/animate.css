@@ -12,6 +12,7 @@
     animation-timing-function: ease-in-out;    
     mix-blend-mode: difference;
     align-self: center;
+    filter: blur(1px);
 }
 
 @keyframes leftToRight {
@@ -49,5 +50,20 @@
     }
     100% {
         stroke-dashoffset: 000;
+    }
+}
+
+@keyframes breathing {
+    0% {
+        background-size: 100% 100%;
+        opacity: 0.75;
+    }
+    50% {
+        background-size: 120% 120%;
+        opacity: 1;
+    }
+    100% {
+        background-size: 100% 100%;
+        opacity: 0.75;
     }
 }

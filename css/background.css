@@ -77,5 +77,4 @@ Hiding overflow works fine when outside of grid-container? But as soon as I try 
     width: 1300px;
     transform: translate(500px, 19px) rotate(2deg);
     mix-blend-mode: difference;
-    overflow: hidden;
 }
