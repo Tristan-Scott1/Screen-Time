@@ -12,7 +12,7 @@ Hiding overflow works fine when outside of grid-container? But as soon as I try 
 } */
 
 .background {
-    background-color: #472BE6;
+    background-color: #B7C81D;
     position: absolute;
     height: 20vh;
     width: 1000px;
@@ -26,7 +26,7 @@ Hiding overflow works fine when outside of grid-container? But as soon as I try 
     position: absolute;
     height: 4vh;
     width: 1300px;
-    transform: translate(-250px, 100px) rotate(12deg);
+    transform: translate(-850px, -350px) rotate(12deg);
     mix-blend-mode: difference;
     overflow: hidden;
 }
@@ -34,19 +34,18 @@ Hiding overflow works fine when outside of grid-container? But as soon as I try 
 .background3 {
     background-color: #472BE6;
     position: absolute;
-    height: 3vh;
+    height: 2vh;
     width: 1300px;
-    transform: translate(-555px, 436px);
+    transform: translate(-700px, 30px);
     mix-blend-mode: difference;
     overflow: hidden;
 }
-
 .background4 {
     background-color: #472BE6;
     position: absolute;
     height: 2vh;
     width: 1300px;
-    transform: translate(-800px, 1215px) rotate(4deg);
+    transform: translate(-275px, 30px);
     mix-blend-mode: difference;
     overflow: hidden;
 }
@@ -56,7 +55,7 @@ Hiding overflow works fine when outside of grid-container? But as soon as I try 
     position: absolute;
     height: 2vh;
     width: 1300px;
-    transform: translate(800px, 1320px) rotate(8deg);
+    transform: translate(-500px, -23px) rotate(3deg);
     mix-blend-mode: difference;
     overflow: hidden;
 }
@@ -66,7 +65,7 @@ Hiding overflow works fine when outside of grid-container? But as soon as I try 
     position: absolute;
     height: 2vh;
     width: 1300px;
-    transform: translate(1450px, 1248px);
+    transform: translate(-500px, 40px) rotate(-4deg);
     mix-blend-mode: difference;
     overflow: hidden;
 }
@@ -74,19 +73,9 @@ Hiding overflow works fine when outside of grid-container? But as soon as I try 
 .background7 {
     background-color: #472BE6;
     position: absolute;
-    height: 1vh;
+    height: 2vh;
     width: 1300px;
-    transform: translate(-900px, 1300px);
-    mix-blend-mode: difference;
-    overflow: hidden;
-}
-
-.background8 {
-    background-color: #472BE6;
-    position: absolute;
-    height: 3vh;
-    width: 1300px;
-    transform: translate(1120px, 1070px);
+    transform: translate(500px, 19px) rotate(2deg);
     mix-blend-mode: difference;
     overflow: hidden;
 }
