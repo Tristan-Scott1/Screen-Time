@@ -96,7 +96,7 @@ p {
     margin: 0.67em 0;
     font-weight: 1000;
     font-style: normal;
-    background: url('/images/mountains.jpg') no-repeat;
+    background: url('../images/mountains.jpg') no-repeat;
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
